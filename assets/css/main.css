@@ -456,16 +456,17 @@ h6 {
   }
 
   .gallery .gallery-item {
-    height: auto!important;
+    height: 400px!important;
   }
 
   .navmenu li.qr{
     display:block;
   }
 
-  .navmenu img {
+  .navmenu li.qr img {
     display:block;
     margin: 0 auto;
+    width:100%;
   }
 
 }
@@ -820,7 +821,7 @@ section,
   border-right: 3px solid var(--background-color);
   border-bottom: 3px solid var(--background-color);
   display: block;
-  height: 800px !important;
+  height: 800px;
 }
 
 .gallery .gallery-item img {
